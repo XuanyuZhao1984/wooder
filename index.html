@@ -1,0 +1,165 @@
+<!-- index.html -->
+<!DOCTYPE html>
+
+<!-- define angular app -->
+<html ng-app="wooderApp">
+<head>
+  <!-- SCROLLS -->
+  <!-- load bootstrap and fontawesome via CDN -->
+  <link rel="stylesheet" href="public/lib/bootstrap/dist/css/bootstrap.css"/>
+  <link rel="stylesheet" href="public/lib/bootstrap/dist/css/bootstrap-theme.css"/>
+  <link rel="stylesheet" href="assets/wooder.css"/>
+  <!-- SPELLS -->
+  <!-- load angular via CDN -->
+  <script src="public/lib/angular/angular.js"></script>
+  <!--<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>-->
+  <script src="app.js"></script>
+</head>
+
+<!-- define angular controller -->
+<body ng-controller="mainController">
+<div style="height: 900px">
+  <img src="assets/img/Untitled.png" style="z-index: -3;position: absolute;opacity: 0.8 "
+       class="col-md-7 col-xs-12">
+  <img src="assets/img/backgroundright.png"
+       style="z-index: -2;position: absolute;top: 0;right: 0;opacity: 0.5;height: 850px"
+       class="col-md-8 col-xs-12">
+  <div style="position:absolute; z-index: -1;"
+  >
+
+    <a class="pull-left menubtn">
+      &#9776;
+    </a>
+    <!--<button class="btn btn-danger btn-lg">love</button>-->
+    <a ui-sref="home" class="navbar-brand text-muted"><span style=" position:absolute;left:25px">MENU</span></a>
+
+
+  </div>
+  <div style=" z-index: 0;">
+    <b style="color:white;position: absolute; align-content:center;left:520px; top:5px;font-size: 40px">
+      W <span style="text-decoration: line-through;">O O</span> D E R</b>
+  </div>
+  <div style=" z-index: 0;top:15px;position: absolute">
+    <div ui-sref="home" class="navbar-brand text-muted" style="position: absolute;left:820px;">
+      HOME
+    </div>
+    <div ui-sref="home" class="navbar-brand text-muted" style="position: absolute;left:1000px;">
+      PRODUCTS
+    </div>
+    <div ui-sref="home" class="navbar-brand text-muted" style="position: absolute;left:1220px;">
+      ABOUT
+    </div>
+    <div class="rotate" style="font-size:38px;width:600px;height:auto;position: absolute;left:400px;top:300px;
+    color:lightyellow;">&mdash; &nbsp; 01 &nbsp;&nbsp;. &nbsp;     <span class="text-muted">.&nbsp; .&nbsp; .
+    </span></div>
+    <div class="rotate" style="width:600px;height:auto;position: absolute;left:530px;top:500px;
+    color:white;">&mdash;&mdash;&mdash;&rsaquo; <span class="text-muted" style="font-size: x-small">&nbsp; &nbsp; SCROLL
+    </span></div>
+    <div class="rotate " style="width:600px;height:auto;position: absolute;left:1320px;top:300px;
+    font-size: small;color: #80726d">FURNITURE &nbsp; &nbsp;& &nbsp; &nbsp; DECOR
+    </div>
+
+  </div>
+  <b style="z-index: 0;color:lightyellow;position: absolute;
+  align-content:center;left:520px; top:280px;font-size: 70px">W O O D E R</b>
+  <div class="learnmore"><span style="display: inline-block">LEARN MORE &nbsp;
+  </span><span style="display:inline-block;">&mdash;&mdash;&rsaquo;</span></div>
+
+</div>
+
+<div class="row" style="height: 500px">
+  <div class="col-xs-offset-2 col-xs-8 hvr-bob">
+    <img src="assets/img/upcycled-furniture-011.png" class="pull-right" style="z-index: -1;width: 80%">
+    <div style="padding-top: 100px;z-index: 0;width: 1000px;height: 600px;position: absolute">
+      <img src="assets/img/h2line.png">
+      <b class="headerw">&nbsp; &nbsp;FURNITURE</b><br><br>
+      <div class="secondline">
+        <img src="assets/img/line.png " style="margin-bottom: 205px">
+        &nbsp; &nbsp;&nbsp;
+        <p class="text-muted " style="display: inline-block;color: #0d3349">
+          Wooder utilize materials otherwise left behind, <br>
+          rendered useless in their original content, by creat<br>
+          Ing new pieces made of reclaimed barn wood.<br><br><br>
+
+          <b style="color: rgba(17, 26, 52, 0.82);">LEARN MORE</b> &nbsp;
+          <span style="display:inline-block;">&mdash;&mdash;&rsaquo;</span><br>
+          &mdash;&mdash;
+
+
+        </p>
+      </div>
+    </div>
+    <b style="font-size: xx-large;top: 400px;position: absolute;">01.</b>
+
+  </div>
+</div>
+<br>
+
+
+<div class="row" style="height: 600px;background-color: whitesmoke">
+  <div class="col-xs-offset-2 col-xs-8 hvr-bob">
+    <br>
+    <h1 style="color: yellow">&nbsp;|</h1>
+    <br><br>
+    <img src="assets/img/background%20_%20shadow.png" class="pull-left " style="z-index: -1;width: 50%">
+    <div style="padding-top: 100px;z-index: 0;width: 1000px;height: 600px;position: absolute;text-align: right">
+
+      <b class="headerw">DECOR&nbsp; &nbsp;</b><img src="assets/img/h2line.png"><br><br>
+      <div>
+
+
+        <p class="text-muted " style="display: inline-block;color: #0d3349;text-align: right;position: absolute;
+        left:580px">
+          We make all types of wooden decor as<br>
+          per design given by Architect, Interior<br>
+          designer, contractor which is suitable.
+        </p>
+        <img src="assets/img/line.png " style="margin-bottom: 205px;position: absolute;right: 100px"><br><br><br>
+        <div style="position: absolute;right: 190px">
+          <br>
+          <b style="color: rgba(17, 26, 52, 0.82);">
+            LEARN MORE</b> &nbsp;
+          <span style="display:inline-block;">&mdash;&mdash;&rsaquo;</span>
+
+
+        </div>
+
+        <br><br>
+        <div style="position: absolute;right: 300px">
+          &mdash;&mdash;</div>
+
+
+      </div>
+    </div>
+
+    <div style="font-size: xx-large;top: 410px;font-weight: bold;
+    right: 0; position: absolute;text-align: right" class="pull-right">02.
+      <br>
+      <h1 style="color: yellow">|&nbsp;&nbsp;&nbsp;</h1>
+
+
+    </div>
+
+  </div>
+</div>
+
+<div class="footer" style="height: 50px;background-image: url('assets/img/footerback.png')">
+  <div class="col-xs-offset-2 col-xs-8 " style="padding-top: 5px;">
+
+    <p class="pull-left footerele" ><span
+      class="glyphicon glyphicon-copyright-mark"></span> 2016 WOODER >
+    </p>
+
+    <p class="pull-right footerele">Website by <span style="color: whitesmoke;">ID Digital</span>
+    </p>
+    <p class="text-center" style="padding-top: 0px;">
+      <b style="color:white;font-size: 30px">
+        W <span style="text-decoration: line-through;">O O</span> D E R</b>
+
+    </p>
+  </div>
+
+</div>
+
+</body>
+</html>

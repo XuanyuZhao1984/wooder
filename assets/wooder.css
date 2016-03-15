@@ -1,0 +1,149 @@
+.menubtn{
+    position: absolute;
+    left: 10px;
+    top:12px;
+    color: yellow;
+    font-size: larger;
+    width: 300px;
+}
+#lines {
+
+
+    border-bottom: 17px double yellow;
+    border-top: 6px solid yellow;
+    content:"";
+    height: 5px;
+    width:30px;
+}
+.border-menu {
+    position: relative;
+    padding-left: 1.25em;
+}
+.border-menu:before {
+    content: "";
+    position: absolute;
+    top: 0.25em;
+    left: 0;
+    width: 1em;
+    height: 0.125em;
+    border-top: 0.375em double #000;
+    border-bottom: 0.125em solid #000;
+}
+
+.leftuparea{
+    height: 600px;
+}
+.rotate {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+    /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+    -webkit-transform-origin: 0 0 0;
+    -moz-transform-origin: 0 0 0;
+    -ms-transform-origin: 0 0 0;
+    -o-transform-origin: 0 0 0;
+    transform-origin: 0 0 0;
+
+    /*//font-size: 38px;*/
+
+   
+}
+
+.learnmore {
+    color: lightyellow;
+    position: absolute;
+    text-align: center;
+    left: 520px;
+    top: 390px;
+    z-index: 0;
+    border: 2px solid lightyellow;
+    padding: 15px 80px;
+    font-size: x-small;
+
+}
+
+.headerw{
+   /*display: inline-block;*/
+    font-size: xx-large;
+
+}
+
+.secondline{
+    position: absolute;
+    left:100px;
+
+}
+
+.footerele{
+    padding-top: 10px;
+}
+
+
+/* Bob */
+@-webkit-keyframes hvr-bob {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes hvr-bob {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+@-webkit-keyframes hvr-bob-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes hvr-bob-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+    -webkit-animation-name: hvr-bob-float, hvr-bob;
+    animation-name: hvr-bob-float, hvr-bob;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
